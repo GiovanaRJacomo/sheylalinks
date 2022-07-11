@@ -6,10 +6,15 @@
 
 html {
 	--bg-color: #EDF2FF;
-	--text-color: #00082F;
+	--text-color: #000000;
 	--title-color: #00082F;
-	--primary-color: #5d96eb;
+	--primary-color: #3480f0;
 	--primary-color-dark: #7baab6;
+}
+
+body{
+	background-image: url(https://wallpaperaccess.com/full/1108057.jpg);
+    background-size: cover;
 }
 
 body.light {
@@ -77,7 +82,7 @@ button {
 	font-family: 'Roboto Mono', monospace;
 	color: var(--title-color);
 	font-size: 18px;
-	opacity: 0.8;
+	opacity: 0.;
 	font-weight: 400;
 }
 
@@ -131,7 +136,7 @@ ul li a:hover{
 footer {
 	font-weight: 500;
 	font-size: 12px;
-	opacity: 0.6;
+	opacity: 0.;
 	transition: opacity 400ms;
 	color: var(--title-color);
 }
